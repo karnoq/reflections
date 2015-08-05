@@ -1,0 +1,37 @@
+How did viewing a diff between two version of a file help you see the bug that was introduced?
+
+It helped by automating the searching for, and checking for what changes had been made, i.e.,
+the differences between different files. Otherwise it is a very tedious procedure to go visually
+go back and fourth between the two documents manually checking for changes, misspellings, etc. With
+diff the annotations on screen quickly and easily pointed to where changes had occurred.
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+
+You could select an earlier version if something has gone wrong and not have to re-enter the code, or
+you want to add items from later versions into earlier versions - whilst skipping intermediate versions - 
+so that, once again, you don't have to repeatedly re-enter code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google docs does?
+
+A pro would be that you have more control over when, and at what point, you save during the process. However,
+this could turn into a con depending on how often, i.e. the frequency, with which you decide to commit any
+changes. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while
+others, like Google Docs, trest each file separately?
+
+Being able to save multiple files at once seems helpful if changes have been made to several different files.
+That way you don't forget to save changes in one file while not saving in another.
+
+How might version control make you more confident to make changes that could break something?
+
+Using version control would greatly aid in examining earlier version, with regards to the current version,
+so that you can easily determine when and where the bug has been introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'm learning programming and it would be nice to be able to make changes while learning without having
+to re-write from scratch, or spend hours struggling to find an error, when I try out a new concept or make
+a change to the file I'm working on.
