@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A message will appear indicating that an (empty) Git repository is created wherever the user has specified.
+This creates a hidden file that will contain the meta-data that Git uses to track changes, etc.
+
+How is the staging area different from the working directory and the repository? What value do you think it
+offers?
+
+The staging area is similar to a temporary directory where you can add or remove files before committing
+them fully to the repository. This provides a benefit by allowing you to change your mind about which file(s)
+to include into the repository at this time.
+
