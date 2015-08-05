@@ -10,3 +10,7 @@ The staging area is similar to a temporary directory where you can add or remove
 them fully to the repository. This provides a benefit by allowing you to change your mind about which file(s)
 to include into the repository at this time.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git diff to compare files between the working area and the staging area, and git diff --staged to compare files between the staging area and most recent commit. If it looks like more than one logical change has occurred than you can fix the issues so that is not the case.
+
