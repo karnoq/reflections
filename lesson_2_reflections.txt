@@ -22,3 +22,7 @@ How do the diagrams help you visualize the branch structure?
 
 It's an easy way to see the master, any branches, and commits that are currently within your structure. It is also an easy way to see if there any commits that cannot be reached from other branches, i.e. should you create a new branch or just use that commit for experimental stuff and discard it?
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that code from different branches is then added to whichever is chosen as the 'master' so that functions/additions/changes/experiments can now be accessible. Not too sure as to why it is represented that way though...
+
