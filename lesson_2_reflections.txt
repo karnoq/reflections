@@ -26,3 +26,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The result of merging two branches together is that code from different branches is then added to whichever is chosen as the 'master' so that functions/additions/changes/experiments can now be accessible. Not too sure as to why it is represented that way though...
 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatic merging saves time in that it quickly combines the two files unless there is a conflict, in which case, you have to manually go in and figure out what to keep/change/remove.
+Note: if you screw up on the merging of two branches use "git reset --hard HEAD~1" to get back to pre-merge.
+
