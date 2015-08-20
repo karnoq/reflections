@@ -14,3 +14,7 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Guess it's a good measure of how far ahead or out-of-sync you are with the master that is stored on Github.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without using Git(Hub) I previously would save a copy into a common directory or online storage service. If any changes were made, I would compare the two documents side by side looking for the change (hoping that the other collaborator had made some obvious change). This is easier in the sense that I don't have to add, commit, push, etc., and just keep on working. It is much harder in the sense of tracking down changes, synching up and merging changes, or keeping track of which version is being worked on, and where it is saved.
+
